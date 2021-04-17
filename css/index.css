@@ -1,0 +1,251 @@
+*{margin: 0;padding: 0;color: #000000;position: relative;}
+li{list-style: none;}
+a{text-decoration: none;}
+html,body{
+	width: 100%;
+}
+.box{
+	width: 100%;
+}
+
+/* 头部内容 */
+.header{
+	height: 73px;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+}
+.inner-header{height: 100%;width: 1440px;margin: 0 auto;}
+.head-logo{width: 150px;height: 100%;box-sizing: border-box;padding: 10px 0;float: left;}
+.head-logo>a>img{width: 69px;height: 50px;}
+.text-ul{box-sizing:border-box;width: 1290px;height: 100%;float: right;padding-left: 240px;}
+.head-ul{box-sizing: border-box;padding: 20px 0px;}
+.head-ul>li{float: left;}
+.head-ul-left{float: left;}
+.head-ul-left>li{height:31px;margin-left: 60px;text-align: center;line-height: 31px;}
+.head-ul-right{float: right;}
+.head-ul-right>li>a>img{display: block;width: 28px;height: 28px;}
+.head-ul-right>li{margin-left: 20px;}
+
+
+/* 中间部分内容 */
+/* 宣传语 */
+.shoe-slogan{height:163px;padding: 150px 40px 0px;}
+.shoe-slogan>p{width:600px;float: left;text-align: center;letter-spacing: 20px;line-height: 163px;font-weight: 700;}
+.shoe-slogan>h2{
+	float: right;
+	padding: 0 60px;
+	font-weight: 700;
+    font-size: 110px;
+    font-style: normal;
+	line-height: 163px;
+    color: #e0e0e0;
+}
+.first-bg{
+	margin: 0 auto;
+	width: 1410px;
+	height: 640px;
+	background: url(../imgs/bg1.webp) no-repeat bottom/1410px auto;
+}
+.flyboy{
+	width: 384px;
+	height: 379px;
+	position: absolute;
+	top: -200px;
+	right: 250px;
+}
+.flyboy>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bar{width: 100%;text-align: center;height: 111px;}
+.bar>img{height: 100%;}
+
+.nike{
+	width: 100%;height: 60px;padding: 60px 0 100px;
+	font-size: 34px;
+	font-weight: normal;
+	font-style: italic;
+	color: #333333;
+	text-align: center;
+}
+.centershoe{
+	width: 100%;height: 446px;padding-top: 20px;
+}
+.nikeicons{
+	width: 100%;height: 446px;
+	background: url(../imgs/nikeicons.webp) no-repeat center/auto;
+}
+.shoeshine{
+	position: absolute;
+	top: 0;
+	left: 35%;
+	height: 446px;
+	width: 446px;
+	text-align: center;
+}
+.shoeshine>img{
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+}
+.clumn{
+	height: 236px;width: 600px;
+	margin: 0 auto;
+}
+.clumn-title{
+	height: 105px;width: 600px;
+	text-align: center;
+}
+.clumn-titleone{font-size: 26px;color: #333;padding-bottom: 25px;font-weight: bold;}
+.clumn-titletwo{font-size: 28px;color: #cc3333;vertical-align: bottom;font-weight: bold;}
+.clumn-cotent{
+	height: 92px;width: 600px;padding-top: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #9b9b9b;
+	letter-spacing: 4px;
+	line-height: 30px;
+	font-family: "Open Sans",Helvetica,Arial,Verdana,sans-serif;
+}
+
+.baynow-button{width: 100%;height: 50px;padding-top: 70px;}
+
+/* 立即购买按钮样式 */
+.abutton{
+	width: 198px;height: 50px;border-radius: 32px;
+	display: block;
+	background-color: #CC3333;
+	color: white;
+	text-align: center;line-height: 50px;letter-spacing: 1px;
+}
+.baynow-button>.abutton{
+	margin: 0 auto;
+}
+.shoeintro{width: 1320px;height: 603px;margin: 120px auto 0;overflow: hidden;}
+.shoeintro-right{
+	height: 603px;width: 479px;
+	float: right;
+}
+.shoeintro-right>img{
+	display: block;height: 100%;width: 100%;
+}
+.shoeintro-left{height: 545px;width: 782px;float: left;}
+.shoeintro-title{
+	padding-bottom: 20px;
+}
+.shoeintro-title>p{
+	height: 36px;line-height: 36px;
+	font-size: 24px;
+}
+.shoeintro-title>h2{
+	height: 99px;padding: 2px;
+	font-size: 64px;line-height: 99px;font-weight: 600;
+}
+.shoeintro-choose{height: 54px;}
+.shoeintro-choose-left{height: 40px;width: 104px;float: left;line-height: 1.5em;font-size: 15px;padding-right: 20px;}
+.shoeintro-choose-right{width: 561px;height: 38px;float: left;}
+.shoeintro-choose-right>img{width: 100%;height: 100%;display: block;}
+.shoeinro-content-one{
+	width: 600px;padding-top: 40px;
+	letter-spacing: 4px;font-size: 14px;line-height: 30px;
+	color: rgb(155, 155, 155);
+}
+.shoeinro-content-two>li{
+	letter-spacing: 1px;line-height: 30px;height: 30px;
+	font-size: 13px;font-weight: 600;
+	color:  rgb(155, 155, 155);
+}
+.shoeinro-baynow-button{height: 42px;width: 100%;padding-top: 40px;}
+.shoeinro-abutton{
+	width: 178px;height: 42px;border-radius: 28px;
+	display: block;
+	background-color: #CC3333;
+	color: white;
+	text-align: center;line-height: 42px;letter-spacing: 1px;
+}
+.shoeculture{
+	height: 633px;width: 100%;margin-top: 120px;
+	background: url(../imgs/contentbg.webp) no-repeat 0 0/1920px auto;
+}
+.inner-shoeculture{height: 100%;width: 1320px;margin: 0 auto;}
+.shoeculture-left{height: 633px;width: 650px;float: left;text-align: center;}
+.shoeculture-left>img{
+	height: 633px;width: 585px;
+}
+.shoeculture-right{height: 535px;width: 650px;padding: 0 5px;float: left;overflow: hidden;}
+.shoeculture-right>.shoeintro-title{text-align: right;padding: 0 40px 20px;}
+.button-wrap{width: 100%;height: 24px;position: absolute;bottom: 0;}
+.button-innerwrap{width: 216px;height: 24px;float: right;}
+.button-toleft{display: block;float:left;width: 108px;height: 21px;}
+.button-toleft>img{cursor: pointer;}
+.button-toright{display: block;float:left;width: 108px;height: 21px;}
+.button-toright>img{cursor: pointer;}
+.shoeculture-content{
+	width: 570px;height: 275px;padding: 30px 40px;text-align: right;
+	position: absolute;
+}
+.shoeculture-content>h2{font-size: 16px;color: #666;}
+.shoeculture-content>h2:first-child{height: 50px;line-height: 50px;}
+.shoeculture-content>p{
+	letter-spacing: 1px;font-size: 14px;
+	color: rgb(153, 153, 153);
+	line-height: 30px;
+	text-align: right;
+}
+.shoeculture-content>h2:last-child{padding-top: 20px;}
+.scendbar{height: 111px;width: 100%;padding-top: 80px;}
+
+/* 查看更多系列 */
+.morebg{
+	width: 100%;height: 600px;
+	background: url(../imgs/morebg.webp) no-repeat 0 0 /100% 100%;
+}
+.morebg-content{width: 100%;padding-top: 190px;height: 159px;text-align: center;}
+.morebg-content>p{
+	font-size: 20px;padding-bottom: 15px;
+	color: #fff;
+}
+.morebg-content>h2{
+	font-size: 80px;line-height: 118px;color: #fff;
+}
+.sirdbar{height: 111px;width: 100%;padding-bottom: 80px;}
+
+
+/* 底部内容 */
+.footer{width: 100%;height: 238px;
+		border-top: 1px solid #d6d6d6;
+}
+.innerfooter{
+	width: 1439px;height: 100%;
+	margin: 0 auto;
+}
+.footerlist{
+	padding-top: 40px;
+	height: 28px;width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.footerlist>div>div{
+	float: left;
+	width: 118px;
+	position: relative;
+}
+.footerlist>div>div>span{
+	width: 64px;
+	height: 1px;
+	background-color: #666666;
+	position: absolute;bottom: 0;left: 0;
+}
+.footerlist>p{font-size: 13px;color: rgb(153, 153, 153);}
+.footerlist>ul{width:300px;height: 28px;}
+.footerlist>ul>li{float:left;width: 34px;height: 28px;}
+.footerlist>ul>li>span{display:block;width: 24px;height: 24px;margin-left: 10px;}
+.lastlogo{height: 50px;width:100%;padding-top: 30px;text-align: center;}
+.lastlogo>img{
+	height: 50px;
+}
+.floatup1,.floatup2,.floatup3{
+	opacity: 0;
+}

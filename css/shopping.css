@@ -1,0 +1,229 @@
+.shoptitle{
+	width: 100%;height: 80px;background-color: #000000;
+	font-size: 24px;line-height: 80px;text-align: center;color: #FFFFFF;
+}
+.overlay{height: 58px;width: 1200px;border-bottom: 1px solid rgba(224,224,224,1);margin: 0 auto;}
+.inneroverlay{
+	height: 19px;width: 100%;padding-top: 20px;
+}
+.inneroverlay>div{
+	float: left;height: 19px;margin-right: 10px;font-size: 14px;
+}
+.inneroverlay>div>img{
+	height: 18px;vertical-align: middle;
+}
+.inner-shopping{width: 1190px;height: 705px;margin: 50px auto 0;}
+.inner-shopping-left{
+	height: 522px;width: 571px;float: left;
+	background: url(../imgs/shoe1.webp) no-repeat 0 0/571px 522px;
+}
+/* .inner-shopping-left>img{height: 522px;width: 571px;} */
+.inner-shopping-right{width: 571px;height: 670px;float: right;}
+.shopping-price{height: 75px;font-size: 50px;line-height: 75px;}
+.shopping-content{margin: 20px 0;width: 100%;line-height: 30px;font-size: 13px;}
+.shopnumber{
+	box-sizing: border-box;height: 30px;width: 100%;padding: 7px 0 7px 0;
+	border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;
+	font-size: 12px;line-height: 16px;
+}
+.shopcl{
+	box-sizing: border-box;height: 30px;width: 100%;padding: 7px 0 7px 0;
+	font-size: 12px;line-height: 16px;
+}
+.shopcl>a{color: #d1d1d1;}
+.shoesize{height: 40px;width: 350px;}
+.shoesize-head{height: 20px;padding: 5px 0 10px 0;width: 50px;float: left;}
+.shoesize>ul{width: 280px;height: 40px;float: left;}
+.shoesize>ul>li{
+	padding: 6px 16px;border: 1px solid #ccc;margin: 0 6px 5px 0;float: left;cursor: pointer;
+	font-size: 12px;
+}
+.shoecolor{height: 51px;width: 100%;}
+.shoecolor-head{height: 25px;padding: 10px 0 10px 0;width: 50px;float: left;}
+.shoecolor>ul{width: 300px;height: 51px;float: left;}
+.shoecolor>ul>li{
+	width: 40px;height: 40px;padding: 2px;margin: 0 6px 5px 0;border: 1px solid #CCCCCC;
+	float: left;cursor: pointer;
+}
+.shoecolor>ul>li>img{
+	display: block;height: 40px;width: 40px;
+}
+.finalprice{margin: 10px 0 10px;}
+.shopnow{width: 100%;height: 55px;}
+.shopnow-button{
+	padding: 18px 65px;border: 1px solid #000000;background: #000000;
+	margin-right: 15px;color: #FFFFFF;float: left;cursor: pointer;
+}
+.pushprice{
+	height: 52px;width: 38px;border: 1px solid #DDDDDD;
+	float: left;line-height: 52px;text-align: center;
+}
+.pushprice-button{cursor: pointer;user-select: none;}
+.picshow{
+	height: 1160px;width:1200px;margin: 0 auto;
+}
+.picshow>div{width: 580px;height: 580px;padding: 0 5px;float: left;}
+.picshow>div>img{display:block;width: 580px;height: 580px;}
+.kpsfaq{
+	box-sizing:border-box;width: 1200px;height: 512px;margin: 0 auto;border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;
+	padding: 80px 0;
+	text-align: center;
+}
+.kps{height: 100%;width: 600px;float: left;}
+.kps>h2,.faq>h2{
+	height: 192px;width: 100%;line-height: 192px;
+	font-size: 130px;font-family: "Oswald";
+}
+.kps>p,.faq>p{
+	height: 24px;width: 100%;line-height: 24px;
+	font-size: 14px;padding-bottom: 20px;
+}
+.kps>div,.faq>div{
+	padding: 10px 60px;border: 1px solid black;transition: all .4s linear;
+	cursor: pointer;font-weight: 700;
+	width: max-content;margin: 0 auto;
+}
+.kps>div>a,.faq>div>a{
+	transition: all .4s linear;	
+}
+.kps>div:hover,.faq>div:hover{color: rgb(204,51,51);border-color: rgb(204,51,51);}
+.kps>div:hover>a,.faq>div:hover>a{color: rgb(204,51,51);}
+.faq{height: 100%;width: 600px;float: left;border-left: 1px solid #DDDDDD;box-sizing: border-box;}
+.morefaq{width: 1440px;height:280px;margin: 20px auto;}
+.inner-morefaq{
+	height: 200px;width: 358px;float: left;border-right: 1px solid #DDDDDD;
+	text-align: center;padding: 40px 0;
+}
+.inner-morefaq:last-child{border: none;}
+.inner-morefaq>p{line-height: 22px;font-size: 12px;}
+.inner-morefaq>h2{
+	height: 25px;padding: 18px 0 12px;
+	font-size: 18px;line-height: 25px;font-weight: 700;
+}
+
+
+/* 放大镜div */
+.shopping-hidden{
+	width: 400px;height: 400px;
+	position: absolute;top: 0;left: 571px;
+	background: url(../imgs/shoe1.webp) no-repeat;
+	background-size: 330% 330%;
+	display: none;
+}
+
+/* 遮罩层div */
+.shoppingmask{
+	width: 200px;height: 200px;
+	position: absolute;
+	background-color: rgba(107, 107, 107, 0.5);
+	display: none;
+}
+
+
+/* 点击切换class属性 */
+.size-onindex{border-color: #f67599 !important;}
+.color-onindex{border-color: #e3393c !important;}
+
+
+/* 弹出的购物车 */
+.float-shopcar-bg{
+	height: 1200px;width: 100%;display: none;
+	position: fixed;top: 0;left: 0;
+	background-color: rgba(0,0,0,.5);
+}
+.float-shopcar{
+	position: absolute;right: 0;top: 0;display: none;
+	/* width: 340px;height: 750px; */
+	background-color: #FFFFFF;
+}
+.float-shopcar-title{
+	height: 70px;width: 100%;
+	background-color: #000000;
+	font-size: 20px;color: #CC3333;line-height: 70px;
+	text-align: center;
+}
+.inner-shopcar{
+	width: 100%;height: max-content;max-height: 420px;overflow-y: scroll;overflow-x: hidden;
+	box-sizing: border-box;
+	padding: 10px 40px 0;
+}
+			/* 定义轨道的宽度  -webkit谷歌浏览器内核 */
+			.inner-shopcar::-webkit-scrollbar{
+				width:10px;
+			}
+			/*定义滚动条轨道 内阴影+圆角*/
+			.inner-shopcar::-webkit-scrollbar-track {
+			  border-radius: 10px;
+			  /* background-color:transparent; */
+				
+			}
+			
+			/*定义滑块 内阴影+圆角*/
+			.inner-shopcar::-webkit-scrollbar-thumb {
+			  border-radius: 10px;
+			  background-color:#000000;
+			}
+.float-shopcar-last-father{
+	width: 340px;height: 210px;
+}
+.float-shopcar-last{
+	width: 260px;height: 150px;
+	padding: 20px 40px 40px;
+	position: absolute;bottom: 0;
+}
+
+.float-shopcar-last>p{
+	padding: 20px 0 15px;
+	width: 260px;
+	text-align: center;font-size: 14px;
+}
+.look-shopcar{
+	box-sizing: border-box;
+	width: 260px;border: 1px solid #CC3333;background-color: #FFFFFF;
+	padding: 12px 0;margin-bottom: 10px;
+	font-size: 14px;text-align: center;color: #CC3333;
+	cursor:pointer;
+}
+.holdon{
+	box-sizing: border-box;
+	width: 260px;border: 1px solid #000000;background-color: #000000;
+	padding: 12px 0;margin-bottom: 10px;
+	font-size: 14px;text-align: center;color: #FFFFFF;
+	cursor:pointer;
+}
+
+/* 购物车内li的信息 */
+.inshopcar-content{
+	box-sizing: border-box;
+	width: 260px;height: 130px;
+	padding: 15px 0;border-bottom: 1px solid #DDDDDD;
+}
+.inner-shopcar-left{
+	width: 86px;height: 86px;
+	float: left;
+	background: url(../imgs/shoe1.webp) no-repeat 0 0 /86px 86px;
+}
+.inner-shopcar-right{
+	width: 155px;height: 100px;
+	float: right;
+}
+.inner-shopcar-right>a{font-size: 14px;}
+.variation{
+	padding: 5px 0;
+	font-size: 12px;line-height: 16px;
+}
+.inliprice{
+	font-size: 14px;margin-top: 5px;
+}
+.remove-button{
+	width: 12px;height: 20px;text-align: center;line-height: 20px;
+	position: absolute;top: 15px;right: -12px;cursor: pointer;
+}
+/* 顶部导航栏的位置 */
+.hidden-car{
+	width: 340px;min-height: 100px;height: max-content;display: none;
+	position: absolute;top: 50px;right:30px;z-index: 500;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
+}
+.first-shopcar{display: block!important;opacity: 1!important;}

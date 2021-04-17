@@ -1,0 +1,72 @@
+
+.abouttitle{width: 1500px;height: 32px;padding: 140px 0 20px;margin: 0 auto;}
+
+.inner-abouttitle{width: 850px;padding: 0 95px 0 5px;height: 100%;line-height: 32px;float: right;}
+.inner-black{width: 375px;height: 20px;float: left;}
+.aboutcontent{width: 1500px;height: 460px;margin: 0 auto;padding-bottom: 100px;}
+.aboutcont-left{
+	width: 375px;height: 20px;float: left;
+	padding: 0 0 0 100px;text-align: right;line-height: 20px;
+}
+.aboutcont-left>img{
+	width: 146px;height: 2px;vertical-align: middle;
+}
+.aboutcont-right{
+	width: 850px;height: 460px;padding: 0 95px 0 5px;
+	float: right;
+}
+.aboutcont-right>.aboutheader-title{
+	width: 468px;height: 25px;line-height: 25px;
+	color: #999999;
+	padding-bottom: 15px;
+}
+.aboutcont-right>h2{
+	width: 468px;
+	font-size: 36px;
+}
+.aboutcont-right>p{
+	width: 600px;
+	font-size: 14px;line-height: 30px;letter-spacing: 4px;
+	color: rgb(155, 155, 155);
+
+}
+.aboutcont-right>p:first-of-type{padding-top: 60px;}
+.vcimg{height: 34px;padding-top: 40px;}
+.vcimg>img{display: block;height: 34px;}
+.abouteam{width: 1500px;height: 40px;margin: 0 auto 20px;}
+.abouteam-right{
+	width: 850px;height: 25px;line-height: 25px;float: right;padding: 0 95px 0 5px;
+	color: #999999;
+	padding-bottom: 15px;
+}
+.aboutbg{height: 705px;width: 1430px;margin: 0 auto;
+	background: url(../imgs/aboutbg.webp) no-repeat center/1430px auto;
+}
+.teams{height: 535px;width: 1200px;margin: 80px auto 80px;}
+.teampeople{
+	width: 400px;height: 205px;padding-top: 60px;float:left;
+}
+.headpic{width: 100%;height: 130px;text-align: center;}
+.headpic>img{width: 130px;height: 130px;vertical-align: middle;}
+.peoplename{width: 100%;height: 55px;padding-top: 20px;text-align: center;}
+.peoplename>h2{font-size: 22px;height: 35px;padding-bottom: 5px;color: #333333;line-height: 35px;}
+.peoplename>p{font-size: 13px;color: #BABABA;height: 15px;line-height: 15px;}
+.frindes{height: 79px;width: 1050px;margin: 50px auto 100px;}
+.frindes>div{height: 69px;width: 165px;padding: 0 10px 10px 0;float: left;}
+.frindes>div>img{height: 69px;width: 165px;display: block;cursor: pointer;}
+.aboutmask{width: 100%;height:0;top:0;left:0;display:none;position: fixed;z-index: 100;background-color: #3F3F3F;}
+.maskhead{height: 40px;width: 100%;text-align: center;}
+.maskhead>img{height: 40px;width: 40px;cursor: pointer;}
+.maskhead>div{
+	height: 40px;width: 40px;font-size: 30px;text-align: center;line-height: 40px;
+	position: absolute;right: 0;top: 0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.maskmain{position: absolute;top: 40%;width: 100%;height: 200px;}
+.imgs{height: 81px;width: 193px;margin: 0 auto;}
+.imgs>li{position: absolute;top: 0;left: 0;opacity: 0;}
+.backward{position: absolute;top: 20px;left: 0;cursor: pointer;}
+.forward{position: absolute;top: 20px;right: 0;cursor: pointer;}
+.maskfooter{height: 53px;position: absolute;width: 477px;bottom: 0;left: 600px;}
+.maskfooter>img{display: block;height: 53px;width: 53px;float: left;cursor: pointer;}

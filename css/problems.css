@@ -1,0 +1,46 @@
+
+.problemsmain .aboutheader-title{
+	width: 100%;
+}
+.related-problems{
+	width: 100%;height: max-content;
+	padding: 40px 0 0;
+}
+.inner-problem{
+	width: 100%;height: max-content;
+}
+.problem-title{
+	width: 100%;padding: 8px 0;cursor: pointer;
+}
+.problem-title>span{
+	display: block;height: 22px;width: 24px;float: left;background-color: #666666;
+	font-size: 14px;color: #FFFFFF;text-align: center;line-height: 22px;text-align: center;margin-right: 10px;
+}
+.problemsmain>.aboutcontent{
+	width: 1500px;height: max-content;margin: 0 auto;padding-bottom: 100px;
+	overflow: hidden;
+}
+.problemsmain .aboutcont-right{
+	height: max-content;
+}
+.problem-content{
+	width: 100%;box-sizing: border-box;height: max-content;padding: 10px 40px;
+	line-height: 30px;color: rgb(153, 153, 153);font-size: 14px;letter-spacing: 1px;
+	display: none;
+}
+.problem-content>p{
+	color: rgb(153, 153, 153);
+}
+.problem-content>li{
+	list-style-type: disc;
+}
+.clean-goods>li{
+	list-style-type: decimal;
+}
+.problem-content li>span{
+	color: rgb(153, 153, 153);
+}
+.problem-content>img{
+	width: 755px;
+	margin: 5px 0;
+}
